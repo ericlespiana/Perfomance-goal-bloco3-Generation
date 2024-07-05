@@ -8,8 +8,10 @@ function Navbar() {
 				<div className="container flex justify-between text-lg">
 					<Link to='/home' className='text-2xl font-bold uppercase'>Farmácia Mil Gráus</Link>
 					<div className='flex gap-4'>
-						<Link to='/Produto' className='hover:underline'>Produtos</Link>
-						<Link to='/Categoria' className='hover:underline'>Categorias</Link>
+						<Link to='/produto' className='hover:underline'>Produtos</Link>
+						<Link to='/categoria' className='hover:underline'>Categorias</Link>
+						<Link to='/cadastroCategoria' className='hover:underline'>Cadastrar Categoria</Link>
+
 					</div>
 				</div>
 			</div>
